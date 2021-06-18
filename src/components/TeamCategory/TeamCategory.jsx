@@ -17,19 +17,19 @@ const Data = [
     name: 'Deep Makadiya',
     roles: 'Front-end',
     url: 'https://picsum.photos/500',
-    team: 'heads',
+    team: 'convener',
   },
   {
     name: 'Om Raval',
     roles: 'UI/UX',
     url: 'https://picsum.photos/500',
-    team: 'heads',
+    team: 'convener',
   },
   {
     name: 'Parth Thakkar',
     roles: 'Back-end',
     url: 'https://picsum.photos/500',
-    team: 'heads',
+    team: 'convener',
   },
   {
     name: 'Vansh Prajapati',
