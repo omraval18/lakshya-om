@@ -1,7 +1,8 @@
 @import '../../sassStyle/base/_base.scss';
+@import './../../sassStyle/abstracts/_variables.scss';
 
 .sidebar {
-  background-color: black;
+  background-color: $color-off-white;
   height: 100%;
   width: 300px;
   display: flex;
@@ -15,7 +16,7 @@
 }
 
 .sidebar li {
-  color: white;
+  color: $color-blue;
   font-family: $mainFont;
   font-size: 1.6rem;
 }
@@ -25,14 +26,22 @@
   display: flex;
   align-items: center;
   border-bottom: 1px solid #525252;
-  justify-content: initial;
+  justify-content: flex-start;
 }
 
 .sidebar .nav-close {
-  color: white;
+  color: $color-blue;
   padding-left: 4rem;
   padding-bottom: 2rem;
   font-size: 6rem;
+  margin-right: 2rem;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.8rem;
+  margin-left: 1.6rem;
 }
 
 .nav-links {
